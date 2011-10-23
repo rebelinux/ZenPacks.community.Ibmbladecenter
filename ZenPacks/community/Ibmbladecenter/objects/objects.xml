@@ -1,0 +1,1702 @@
+<?xml version="1.0"?>
+<objects>
+<!-- ('', 'zport', 'dmd', 'Mibs', 'mibs', 'BLADESPPALT-MIB') -->
+<object id='/zport/dmd/Mibs/mibs/BLADESPPALT-MIB' module='Products.ZenModel.MibModule' class='MibModule'>
+<property type="string" id="language" mode="w" >
+SMIv1
+</property>
+<tomanycont id='nodes'>
+<object id='ibmProd' module='Products.ZenModel.MibNode' class='MibNode'>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+node
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6
+</property>
+</object>
+<object id='mmRemoteSupTrapMIB' module='Products.ZenModel.MibNode' class='MibNode'>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+node
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3
+</property>
+</object>
+<object id='remoteSupTrapMibObjects' module='Products.ZenModel.MibNode' class='MibNode'>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+node
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1
+</property>
+</object>
+<object id='spTrapAppId' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Application ID, always 'system Management Module'
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.2
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Application ID, always 'system Management Module'
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapAppType' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Application Alert Type - Event Number ID
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.6
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Application Alert Type - Event Number ID
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapBladeName' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Blade Name
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.11
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Blade Name
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapBladeProductModel' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Blade Machine Type/Module
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.19
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Blade Machine Type/Module
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapBladeSern' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Blade Serial Number
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.12
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Blade Serial Number
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapBladeUuid' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Blade UUID(Universal Unique ID)
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.13
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Blade UUID(Universal Unique ID)
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapCallHomeFlag' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+The call home flag associated with the event that caused the trap
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.16
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+The call home flag associated with the event that caused the trap
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapDateTime' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Timestamp of Local Date and Time when alert was generated
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.1
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Timestamp of Local Date and Time when alert was generated
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapEvtName' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+The 32 bit event name associated with the event that caused the trap
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.14
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+The 32 bit event name associated with the event that caused the trap
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapHostContact' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Host Contact
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.9
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Host Contact
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapHostLocation' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Host Location
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.10
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Host Location
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapInfo' module='Products.ZenModel.MibNode' class='MibNode'>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+node
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1
+</property>
+</object>
+<object id='spTrapMsgText' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Alert Message Text
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.8
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Alert Message Text
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapPriority' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Alert Severity Value
+- Critical Alert(0)
+- Major(1)
+- Non-Critical Alert(2)
+- System Alert(4)
+- Recovery Alert(8)
+- Informational Only Alert(255)
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.7
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Alert Severity Value
+- Critical Alert(0)
+- Major(1)
+- Non-Critical Alert(2)
+- System Alert(4)
+- Recovery Alert(8)
+- Informational Only Alert(255)
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapSourceId' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+The source identifier associated with the event that caused the trap
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.15
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+The source identifier associated with the event that caused the trap
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapSpTxtId' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+SP System Identification - Text Identification
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.3
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+SP System Identification - Text Identification
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapSysIPAddress' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+The AMM IP Address.
+
+NOTE: In some very rare cases, the IP address will indicate 0.0.0.0 
+      instead of the proper AMM configured IP address. This can happen
+      on the initial trap that leaves the AMM if the associated event happens
+      extremely early in the boot up cycle of the AMM.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.17
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+The AMM IP Address.
+
+NOTE: In some very rare cases, the IP address will indicate 0.0.0.0 
+      instead of the proper AMM configured IP address. This can happen
+      on the initial trap that leaves the AMM if the associated event happens
+      extremely early in the boot up cycle of the AMM.
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapSysProductModel' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Chassis Machine Type/Module
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.18
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Chassis Machine Type/Module
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapSysSern' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Host System Serial Number
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.5
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Host System Serial Number
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='spTrapSysUuid' module='Products.ZenModel.MibNode' class='MibNode'>
+<property id='zendoc' type='string'>
+Host System UUID(Universal Unique ID)
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+scalar
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.1.1.4
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Host System UUID(Universal Unique ID)
+</property>
+<property type="string" id="access" mode="w" >
+readonly
+</property>
+</object>
+<object id='supportProcessor' module='Products.ZenModel.MibNode' class='MibNode'>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+node
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158
+</property>
+</object>
+</tomanycont>
+<tomanycont id='notifications'>
+<object id='mTrapHdC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Hard disk drive failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.5
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Hard disk drive failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapAppS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Application Alert.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.22
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Application Alert.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapBlThrS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Blade Throttle.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.39
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Blade Throttle.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapBladeC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Blade.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.128
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Blade.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapBladeN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Blade 
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.160
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Blade 
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapBladeS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Blade
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.176
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Blade
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapBootS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: System Boot Failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.25
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: System Boot Failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapChassisC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Chassis Module.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.130
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Chassis Module.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapChassisN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Chassis Module.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.162
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Chassis Module.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapChassisS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Chassis Module.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.178
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Chassis Module.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapFanC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Cooling Devices.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.133
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Cooling Devices.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapFanN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Cooling Devices.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.165
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Cooling Devices.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapFanS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Cooling Devices.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.181
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Cooling Devices.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapIOC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: I/O Module.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.129
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: I/O Module.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapION' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: I/O Module
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.161
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: I/O Module
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapIOS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: I/O Module
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.177
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: I/O Module
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapIhcC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Incompatible hardware configuration.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.36
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Incompatible hardware configuration.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapKVMSwitchS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Keyboard/Video/Mouse(KVM) or Medial Tray(MT) switching failure.  
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.33
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Keyboard/Video/Mouse(KVM) or Medial Tray(MT) switching failure.  
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapLdrToS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: OS Loader Timeout.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.26
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: OS Loader Timeout.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapLogFullN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Event Log 100% Full.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.7
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Event Log 100% Full.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapMffC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Multiple fan failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.3
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Multiple fan failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapMsC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Multiple switch module failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.31
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Multiple switch module failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapNwChangeS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Network change notification.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.37
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Network change notification.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapOsToS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: OS Timeout value exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.21
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: OS Timeout value exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapPFAS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Predictive Failure Analysis(PFA) information.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.27
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Predictive Failure Analysis(PFA) information.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapPoffS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Power Off.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.23
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Power Off.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapPonS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Power On.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.24
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Power On.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapPostToS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Post Timeout value exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.20
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Post Timeout value exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapPowerN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Power Module.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.164
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Power Module.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapPowerS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Power Module.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.180
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Power Module.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapPsC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Power supply failure.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.4
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Power supply failure.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapPwrDOS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Power down or on.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.182
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Power down or on.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapPwrMgntS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Power Management.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.40
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Power Management.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapRdpsN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Redundant Power Supply failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.10
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Redundant Power Supply failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapRemoteLoginS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Remote Login
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.30
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Remote Login
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapRmN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Redundant module.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.32
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Redundant module.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapSecDvS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Secondary Device warning.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.15
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Secondary Device warning.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapSffC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Single Fan failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.11
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Single Fan failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapStorageC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Storage Module.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.131
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Storage Module.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapStorageN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Storage Module
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.163
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Storage Module
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapStorageS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Storage Module
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.179
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Storage Module
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapSysInvS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: Inventory.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.34
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: Inventory.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapSysLogS' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+System Alert: System Log 75% full.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.35
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+System Alert: System Log 75% full.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapTampC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Physical intrusion of system has occurred.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.2
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Physical intrusion of system has occurred.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapTempC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Temperature threshold exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.0
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Temperature threshold exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapTempN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Temperature threshold exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.12
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Temperature threshold exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapVoltC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Voltage threshold exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.1
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Voltage threshold exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapVoltN' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Non-Critical Alert: Voltage threshold exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.13
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Non-Critical Alert: Voltage threshold exceeded.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+<object id='mmTrapVrmC' module='Products.ZenModel.MibNotification' class='MibNotification'>
+<property id='zendoc' type='string'>
+Critical Alert: Voltage Regulator Module(VRM) failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="string" id="moduleName" mode="w" >
+BLADESPPALT-MIB
+</property>
+<property type="string" id="nodetype" mode="w" >
+notification
+</property>
+<property type="string" id="oid" mode="w" >
+1.3.6.1.4.1.2.6.158.3.0.6
+</property>
+<property type="string" id="status" mode="w" >
+current
+</property>
+<property type="string" id="description" mode="w" >
+Critical Alert: Voltage Regulator Module(VRM) failure.
+Note: This mib object will be replaced in a future release.
+</property>
+<property type="lines" id="objects" mode="w" >
+{'spTrapAppType': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapPriority': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapDateTime': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeUuid': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapEvtName': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapAppId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysIPAddress': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSpTxtId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysProductModel': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapMsgText': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapBladeSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSourceId': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostContact': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapCallHomeFlag': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapSysSern': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}, 'spTrapHostLocation': {'nodetype': 'object', 'module': 'BLADESPPALT-MIB'}}
+</property>
+</object>
+</tomanycont>
+</object>
+</objects>
